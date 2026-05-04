@@ -35,7 +35,7 @@ function AnimatedBox({
 }) {
   const meshRef = useRef<THREE.Mesh>(null);
   const [targetPosition, setTargetPosition] = useState(
-    new THREE.Vector3(...initialPosition)
+    new THREE.Vector3(...initialPosition),
   );
   const currentPosition = useRef(new THREE.Vector3(...initialPosition));
 
@@ -172,9 +172,7 @@ export default function Component() {
           </h1>
 
           <h2 className="text-black dark:text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 md:mb-10 px-1 sm:px-2">
-            I craft exceptional digital experiences with modern web
-            technologies, specializing in React, Next.js, and full-stack
-            development from Tarlac City, Philippines.
+            wink
           </h2>
 
           <div className="flex justify-center">
